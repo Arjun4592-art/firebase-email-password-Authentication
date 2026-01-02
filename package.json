@@ -1,6 +1,6 @@
 {
   "name": "firebase-demo",
-  "private": true,
+  "homepage": "https://Arjun4592-art.github.io/firebase-email-password-Authentication",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -12,12 +12,15 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
     "firebase": "^12.7.0",
+    "gh-pages": "^6.3.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-loader-spinner": "^8.0.0",
     "react-router-dom": "^7.11.0",
     "react-toastify": "^11.0.5",
-    "tailwindcss": "^4.1.18"
+    "tailwindcss": "^4.1.18",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
